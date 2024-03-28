@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MNE</title>
+  <link rel="stylesheet" href="to explain.css">
+</head>
+<body>
+    <h2>Financing cost</h2>
+    <div class="io">
+      <label>Relative Importance</label>
+      <p>Carrying amount / Total book value</p>
+            <input id="input0" type="number" placeholder="Carrying amount"relative>
+            <input id="input1" type="number" placeholder="Total book value"relative>
+            <button onclick="jypi()">account</button>
+            <output id="output1"></output>
+    </div>
+    <div id="ui" class="io">
+      <label>Total book value</label>
+      <p>Bond book value +Book value of shres A+ Book value of common stock</p>
+            <input id="input2" type="number" placeholder="Bond book value"relative>
+            <input id="input3" type="number" placeholder="Book value of shres A"relative>
+            <input id="input4" type="number" placeholder="Book value of common stock"relative>
+            <button onclick="jyoi()">account</button>
+            <output id="output2"></output>
+    </div>
+    <div class="io">
+      <label>Carrying Amount</label>
+      <p>Number of bonds or shares * Nominal value</p>
+            <input id="input5" type="number" placeholder="Number of bonds or shares"relative>
+            <input id="input6" type="number" placeholder="Nominal value"relative>
+            <button onclick="jyp()">account</button>
+            <output id="output3"></output>
+    </div>
+    <div id="ui" class="io">
+      <label>The cost of retined earnings</label>
+      <p>Activity growth rate +(Cash distribution /Share price in the market)</p>
+            <input id="input7" type="number" placeholder="Activity growth rate"relative>
+            <input id="input8" type="number" placeholder="Cash distribution" relative>
+            <input id="input9" type="number" placeholder="Price to them in the market" relative>
+            <button onclick="jop()">account</button>
+            <output id="output4"></output>
+    </div>
+    <div class="io">
+      <label>Activity growth rate</label>
+      <p>Detetion ratio * Return on equity</p>
+            <input id="input10" type="number" placeholder="Return on equity"relative>
+            <input id="input11" type="number" placeholder="Detetion ratio" relative>
+            <button onclick="jo()">account</button>
+            <output id="output5"></output>
+    </div>
+    <div class="io">
+      <label>Cost of borrowed money</label>
+      <p>Declared rate * (100% - income tax ratio)</p>
+            <input id="input12" type="number" placeholder="Declared rate" relative>
+            <input id="input13" type="number" placeholder="income tax ratio" relative>
+            <button onclick="jk()">account</button>
+            <output id="output6"></output>
+    </div>
+    <div class="oi">
+      <label>Premium stock cost</label>
+      <p> (Amount of Distribution for Shares A / Share Price A)*100</p>
+            <input id="input14" type="number" placeholder="Amount of Distribution for Shares A" relative>
+            <input id="input15" type="number" placeholder="Share Price A" relative>
+            <button onclick="jp()">account</button>
+            <output id="output7"></output>
+    </div>
+    <div class="oi">
+      <label>Ordinary shares cost</label>
+      <p>carbon / share price * (1 - Issue cost)</p>
+            <input id="input16" type="number" placeholder="carbon" relative>
+            <input id="input17" type="number" placeholder="share price" relative>
+            <input id="input18" type="number" placeholder="Issuance" relative>
+            <input id="input19" type="number" placeholder="Activity growth rate" relative>
+            <button onclick="jOIPYR()">account</button>
+            <output id="output8"></output>
+    </div>
+  <script src="to explain.js"></script>
+</body>
+</html>
